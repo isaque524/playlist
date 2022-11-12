@@ -300,3 +300,41 @@ section#controls input#volune {
 section#controls span {
   padding: 1rem;
 }
+
+@media (max-width:800px) {
+
+  nav ul li img {
+    width: 10%;
+  }
+
+  section#add {
+    width: 800px;
+  }
+
+  h1 {
+    position: relative;
+    left: -53px;
+  }
+
+
+  .table {
+    display: none;
+  }
+
+
+  section#controls {
+    padding: .7rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section#controls i {
+    font-size: 1rem;
+  }
+
+  section#controls i#vol-icon {
+    font-size: 1rem;
+    padding: .7rem;
+  }
+
+}
